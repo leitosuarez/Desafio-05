@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+    
+}
+
+body{
+    font-family: - Verdana, Arial, sans-serif;
+    background-color: whitesmoke;
+    color: rgb(116, 73, 24);
+}
+
+header{
+    overflow: hidden;
+}
+
+header img{
+    width: 100%;
+    background-size: cover;
+    max-height: 500px;
+}
+
+.info-links{
+    display: inline-block;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+a{
+    color: rgb(255, 104, 4);
+}
+
+.info-links a{
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    
+}
+
+.info-links span{
+    padding: 0 8px ;
+    color: gray;
+    
+}
+
+h1{
+    color: rgb(116, 73, 24);
+    font-size: 45px;
+    margin-top: 25px;
+    font-weight: 900;
+}
+
+h2{
+    color: rgb(245, 229, 229);
+    background-color: rgb(116, 73, 24);
+}
+
+ul,ol{
+    padding-left: 40px;
+}
+
+.section-instalaciones ul{
+    color: rgb(116, 73, 24);
+}
+
+.section-instalaciones ul li:first-child, .section-notas-diarios p, .section-porque-elegirnos ol > li:last-child{
+    font-weight: 700;
+}
+
+.section-notas-diarios ul >li:first-child > a{
+    color: rgb(4, 155, 155);
+}
+
+.section-notas-diarios ul > li:last-child > a{
+    color: rgb(228, 48, 48);
+}
+
+.section-porque-elegirnos h2{color: rgb(255, 166, 0);}
